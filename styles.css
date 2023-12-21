@@ -30,7 +30,7 @@
 }
 
 .all_sections{
-    width: 60%;  
+    width: 60%;
     margin: 0 auto;
 }
 
@@ -38,11 +38,11 @@
     display: none;
 }
 
-<<<<<<< HEAD
+
 .inicio-img{
     height: 32rem;
     width: auto;
-=======
+}
 /* BLOG */
 
 .blog h1 {
@@ -70,5 +70,4 @@
 
 .blog-img-article {
     width: 50%;
->>>>>>> blog
 }
