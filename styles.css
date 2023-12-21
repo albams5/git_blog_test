@@ -1,48 +1,47 @@
-*{
-    background-color: #fefbef
+* {
+  background-color: #fefbef;
 }
 
 .logo_container {
-    width: 60%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 
 .logo {
-    width: 220px;
-    margin: 50px 0;
+  width: 220px;
+  margin: 50px 0;
 }
 
 .menu_navbar {
-    display: flex;
-    justify-content: space-around;
-    color: #F05032;
-    width: 60%;
-    margin: 0 auto;
-    font-weight: bold;
-    font-size: 20px;
-    border-bottom: 1px solid #F05032 ;
+  display: flex;
+  justify-content: space-around;
+  color: #f05032;
+  width: 60%;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 20px;
+  border-bottom: 1px solid #f05032;
 }
 
 .menu_navbar p {
-    cursor: pointer;
+  cursor: pointer;
 }
 
-.all_sections{
-    width: 60%;  
-    margin: 0 auto;
+.all_sections {
+  width: 60%;
+  margin: 0 auto;
 }
 
 .hidden {
     display: none;
 }
 
-<<<<<<< HEAD
 .inicio-img{
     height: 32rem;
     width: auto;
-=======
+}
 /* BLOG */
 
 .blog h1 {
@@ -70,5 +69,29 @@
 
 .blog-img-article {
     width: 50%;
->>>>>>> blog
+}
+
+/*Quienes somos*/
+
+.about_us {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+}
+
+.about_us__article {
+  grid-row: 1;
+  grid-column: 1 / span 2;
+}
+
+.about_us__first_image {
+  grid-row: 2;
+  grid-column: 1;
+  max-height: 300px;
+}
+
+.about__us__second_image {
+  grid-row: 2;
+  grid-column: 2;
+  max-height: 300px;
 }
