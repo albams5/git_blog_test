@@ -38,7 +38,37 @@
     display: none;
 }
 
+<<<<<<< HEAD
 .inicio-img{
     height: 32rem;
     width: auto;
+=======
+/* BLOG */
+
+.blog h1 {
+    text-align: center;
+    color: #F05032;
+    font-size: 2rem;
+}
+
+.blog h2 {
+    font-size: 1.5rem;
+}
+
+
+.blog-article {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.blog-text-article {
+    width: 50%;
+}
+
+.blog-img-article {
+    width: 50%;
+>>>>>>> blog
 }
